@@ -1,0 +1,17 @@
+{
+    "name": "ekipowo/subdomain-manager",
+    "description": "System zarządzania subdomenami z funkcjami bezpieczeństwa",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ekipowo\\": "classes/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
